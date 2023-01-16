@@ -7,6 +7,7 @@ Created on Thu Jan 12 19:42:47 2023
 
 sentence=input("Write a Sentence.  ")
 words={}
+# You're not actually counting anything    -5
 
 for word in sentence.split():
         if word in words:

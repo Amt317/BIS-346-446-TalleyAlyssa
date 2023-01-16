@@ -42,6 +42,7 @@ dollars = int(dollars)
 cents = int(cents)
 amount_in_words = []
 
+# I think you should be referencing "numbers"   -5
 if dollars == 0:
     amount_in_words.append(number_to_word[dollars])
 elif dollars >= 100:
